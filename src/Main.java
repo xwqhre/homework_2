@@ -9,7 +9,6 @@ public class Main {
 
 
 
-
         public static String condition(int age,int temperature){
             if (age >= 20 && age <= 45 && temperature >= -20 && temperature <= 30) {
                 return "Можно идти гулять";
@@ -24,6 +23,7 @@ public class Main {
             else {
                 return "Оставайтесь дома";
 
+//
             }
 
         }
